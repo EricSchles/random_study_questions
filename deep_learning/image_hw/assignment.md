@@ -2,7 +2,7 @@ In this assignment we will look at some typical image based machine learning tas
 
 1. Image classification - this uses the whole image to classify what's happening
 2. Object detection - this trying to detect an object within a broader image context
-3. Image narration - this tries to make use of the detection of multiple objects to tell a story about the picture.
+3. Image captioning - this tries to make use of the detection of multiple objects to tell a story about the picture.
 
 Question One - Image Classification
 
@@ -58,5 +58,14 @@ Your goal is to pick out the object in the image.
 5. Compare and contrast YOLO and Mask R-CNN, which did better?  How did you decide that?  Does one model or the other do better on different kinds of labels?  If so, why do you think?
 6. Now try OctConv: https://github.com/titu1994/keras-octconv, please report your metrics as in the last two examples.  Which one does the best?
 
+Question 3
 
+Follow and then improve the following tutorial: https://machinelearningmastery.com/develop-a-deep-learning-caption-generation-model-in-python/
 
+Steps:
+
+1. Follow the above tutorial
+2. Implement and apply the evaluation metrics found here: http://www.cs.toronto.edu/~fidler/slides/2017/CSC2539/Kaustav_slides.pdf
+3. Swap out the pretrained model with the yolo model you trained, do the metrics improve or degrade?  
+4. Swap out the pretrained model with the Mask R-CNN you trained, do the metrics improve or degrade?
+5. Swap out the pretrained model with the Mask OctConv you trained, do the metrics improve or degrade?
