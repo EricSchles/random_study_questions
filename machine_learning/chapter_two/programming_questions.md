@@ -27,7 +27,7 @@ Steps:
 
 2. Split your data into a test and training set.
 
-3. Try five different models.  For each model deciding how many features to keep and how many features to drop.  Make sure you can explain why you dropped the features you did and why you kept the features you kept.  Try running the model with and without the features you kept.  Report the test precision, recall and f1 score.
+3. Fit five different models to train and evaluate on test.  For each model deciding how many features to keep and how many features to drop.  Make sure you can explain why you dropped the features you did and why you kept the features you kept.  Try running the model with and without the features you kept.  Report the test precision, recall and f1 score.
 
 Hint: if you are using linear regression the t-test can tell you which features are useful. 
 Hint: if you aren't using linear regression dimensionality reduction techniques like T-SNE and PCA are very useful.
@@ -38,6 +38,7 @@ Hint: try scaling the features
 5. Compare and contrast which features you kept and which ones you dropped, based on the model.  Note: it may be the case that different features perform better with different models, so please explore keeping and dropping different features depending on the algorithm.  How does your choice of model and features effect under or overfitting?
 
 5. Try regularizing each of your models, does the generalizability increase?  Decrease?  In which cases does each happen and why?  Please try this with all of your features and then with the reduced set of features.  Report your precision, recall and f1 score on the train and test set.  Next carry out cross validation.  Does regularization reduce under or overfitting?  Why or why not?  How does the space of features your metrics and your optimal regularization parameters?
+
 
 Question 2. 
 
